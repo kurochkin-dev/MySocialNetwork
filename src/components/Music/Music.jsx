@@ -1,12 +1,12 @@
-import React from "react";
-import styles from './Dialogs.module.css';
+import React from 'react';
+import styles from './Music.module.css';
 
-const Dialogs = (props) => {
+const Music = (props) => {
     return (
         <div>
-            Dialogs
+            Music
         </div>
     );
 }
 
-export default Dialogs;
+export default Music;

@@ -1,12 +1,12 @@
-import React from "react";
-import styles from './Dialogs.module.css';
+import React from 'react';
+import styles from './Settings.module.css';
 
-const Dialogs = (props) => {
+const Settings = (props) => {
     return (
         <div>
-            Dialogs
+            Settings
         </div>
     );
 }
 
-export default Dialogs;
+export default Settings;

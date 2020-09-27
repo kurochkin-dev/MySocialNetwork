@@ -1,18 +1,14 @@
 import React from 'react';
 import MyPosts from './MyPosts/MyPosts';
 import styles from './Profile.module.css';
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 const Profile = () => {
     return (
-    <div className={styles.content}>
         <div>
-          <img className={styles.profile__img} src="https://www.w3schools.com/howto/img_snow_wide.jpg"></img>
+            <ProfileInfo/>
+            <MyPosts/>
         </div>
-        <div>
-          ava + description
-        </div>
-      <MyPosts />
-    </div>
     );
 }
 

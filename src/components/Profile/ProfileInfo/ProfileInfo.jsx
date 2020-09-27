@@ -1,20 +1,18 @@
 import React from 'react';
-import MyPosts from './MyPosts/MyPosts';
-import styles from './Profile.module.css';
+import styles from './ProfileInfo.module.css';
 
-const Profile = () => {
+const ProfileInfo = () => {
     return (
         <div>
-            <ProfileInfo />
             <div>
-                <img className={styles.profile__img} src="https://www.w3schools.com/howto/img_snow_wide.jpg"></img>
+                <img alt="background" className={styles.profile__img}
+                     src="https://www.w3schools.com/howto/img_snow_wide.jpg"></img>
             </div>
-            <div>
+            <div className={styles.descriptionBlock}>
                 ava + description
             </div>
-            <MyPosts/>
         </div>
     );
 }
 
-export default Profile;
+export default ProfileInfo;

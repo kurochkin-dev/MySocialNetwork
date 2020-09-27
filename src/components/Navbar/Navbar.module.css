@@ -1,9 +1,19 @@
 .nav {
     grid-area: nav;
-    background-color: #45FFD4;
+    background-color: #715AC8;
     border-radius: 10px;
-  }
-  
+}
+
+.menu__item {
+    padding: 10px;
+}
+
 .menu__link {
-  color: #710064;
-}  
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.active {
+    color: #FFF82A;
+}
