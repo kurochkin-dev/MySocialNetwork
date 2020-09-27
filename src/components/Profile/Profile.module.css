@@ -1,0 +1,10 @@
+
+.content {
+    grid-area: content;
+    background-color: #2A8EFF;
+    border-radius: 10px;
+}
+
+.profile__img {
+  border-radius: 10px;
+}

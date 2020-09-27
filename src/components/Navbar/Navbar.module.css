@@ -1,0 +1,9 @@
+.nav {
+    grid-area: nav;
+    background-color: #45FFD4;
+    border-radius: 10px;
+  }
+  
+.menu__link {
+  color: #710064;
+}  
