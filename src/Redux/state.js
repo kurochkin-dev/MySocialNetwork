@@ -24,7 +24,8 @@ let state = {
             {id: 4, message: 'Yo'},
             {id: 5, message: 'Yes!'},
         ]
-    }
+    },
+    sidebar: {}
 
 };
 
