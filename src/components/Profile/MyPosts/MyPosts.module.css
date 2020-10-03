@@ -12,12 +12,13 @@ textarea {
     border-radius: 5px;
     resize: none;
     border: none;
+    padding: 10px;
 }
 
 button {
     background: #000000;
     width: 100px;
-    height: 30px;
+    height: 35px;
     color: #ffffff;
     border: none;
     border-radius: 5px;
